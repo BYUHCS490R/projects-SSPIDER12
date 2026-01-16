@@ -1,0 +1,63 @@
+# --------------------------------------------------
+# Name: Jason John
+# Program: Print Name Function
+# Description: Prints my name a given number of times
+# using block-style letters. Supports user input
+# and command-line arguments.
+# --------------------------------------------------
+
+import sys
+
+# ---------------- Part 1 & Part 4: Function ----------------
+def print_name(n):
+    """
+    This function prints my name in block letters
+    n number of times.
+    """
+    # Block letters representation of my name
+    name = [
+        "###  ###   ###      ###  ###   ##  ###  #### ### ",
+        "#  # #  # #   #     #  # #  # #  # #  # #    #  #",
+        "###  ###  #   #     #  # ###  #### ###  ###  ### ",
+        "#  # # #  #   #     #  # # #  #  # #    #    # # ",
+        "###  #  #  ###      ###  #  # #  # #    #### #  #"
+    ]
+
+    # Print the block letters n times
+    for _ in range(n):
+        for line in name:
+            print(line)
+        print()  # Blank line between prints
+
+
+# ---------------- Part 2: Interactive Input ----------------
+"""
+# Uncomment this section if you want user input
+user_input = input("Enter a number: ")
+
+try:
+    number = int(user_input)
+
+    if number < 1:
+        print("Error: number must be greater than zero.")
+    else:
+        print_name(number)
+
+except ValueError:
+    print("Error: please enter a valid number.")
+"""
+
+# ---------------- Part 3: Command-Line Input ----------------
+if len(sys.argv) < 2:
+    print("Error: missing command-line parameter.")
+else:
+    try:
+        number = int(sys.argv[1])
+
+        if number < 1:
+            print("Error: number must be greater than zero.")
+        else:
+            print_name(number)
+
+    except ValueError:
+        print("Error: command-line input must be a number.")
