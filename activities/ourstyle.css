@@ -1,0 +1,11 @@
+main p {
+    color: blue;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header p  {
+    color:rgb(48, 48, 87);
+    background-color: rgb(105, 170, 105);
+    font-weight: bold;
+}
