@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+main p {
+    color: cadetblue;
+}
+
+#second {
+    color: chartreuse;
+}
+
+ .larger {
+    font-size: 15pt;
+}
+
+.purple {
+    color: #ff9595;
+}
+
+.seperate {
+    font-size: 40px;
+    font-family: Jokerman;
+}
+
+.bolder {
+    font-weight: bolder;
+}
