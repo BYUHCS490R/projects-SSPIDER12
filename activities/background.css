@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(bluey.jpg);
+    background-repeat: repeat;
+    background-color: rgb(19, 119, 119);
+   
+}
+
+.decorative {
+    min-height: 80px;
+    background-image: url(tree.jpg);
+    background-repeat:no-repeat;
+    background-position: right;
+}
+
