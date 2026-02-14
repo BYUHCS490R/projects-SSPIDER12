@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    background-image: url(background.jpg);
+
+}
+
+a {
+    color: beige;
+}
+
+.currentpage {
+    color: rgb(159, 180, 180);
+}
+
+.bulletpoints {
+    list-style-image: url(spider.png);
+}
+
+.decoration {
+    min-height: 200;
+    background-image: url(vacation.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+ 
+}
