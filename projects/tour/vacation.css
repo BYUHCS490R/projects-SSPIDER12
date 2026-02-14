@@ -18,7 +18,7 @@ a {
 }
 
 .decoration {
-    min-height: 200;
+    min-height: 200px;
     background-image: url(vacation.jpg);
     background-repeat: no-repeat;
     background-position: right;
