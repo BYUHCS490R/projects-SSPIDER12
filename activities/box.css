@@ -1,0 +1,28 @@
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 50px 100px 150px 10px;
+}
+
+main  {
+    background-color: bisque;
+}
+
+footer {
+    background-color: blueviolet;
+    border: 5px solid blue;
+}
+
+.mainpicture {
+    background-color: beige;
+    width: 200px;
+    margin: 50px 80px;
+}
+
+.mainpicture img {
+    width: 200px;
+    
+}
