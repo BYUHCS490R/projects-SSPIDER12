@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lemon {
+    width: 200px;
+    overflow: scroll;
+    border:thin solid;
+    
+}
+
+.lemon img {
+    width: 100%;
+}
+
+.first {
+    width:100%;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.place {
+    position: relative;
+    top: -50px;
+}
+
+.floatleft {
+    float: left;
+}
+
