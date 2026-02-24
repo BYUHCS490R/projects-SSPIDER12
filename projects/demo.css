@@ -1,10 +1,10 @@
-/* ===== BODY ===== */
+
 body {
     background-color: #8b0000;
     font-family: Arial, sans-serif;
 }
 
-/* ===== WRAPPER ===== */
+
 #wrapper {
     width: 880px;
     margin: 0 auto;
@@ -12,9 +12,12 @@ body {
     padding: 20px;
     border: 6px solid #5c0000;
     border-radius: 8px;
+    #wrapper {
+    box-shadow: 0px 0px 15px black;
+}
 }
 
-/* ===== HEADER ===== */
+
 header {
     text-align: center;
     margin-bottom: 15px;
@@ -34,7 +37,7 @@ header h1 {
     text-shadow: 2px 2px 4px #5c0000;
 }
 
-/* ===== NAVIGATION ===== */
+
 nav {
     text-align: center;
     margin: 10px 0;
@@ -57,7 +60,7 @@ nav a:hover {
     color: #8b0000;
 }
 
-/* ===== SECTION TITLE ===== */
+
 .section-title {
     background-color: lightgray;
     width: 260px;
@@ -65,13 +68,13 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* ===== MAIN CONTENT ===== */
+
 main {
     font-size: 17px;
     line-height: 1.6;
 }
 
-/* ===== FLOAT IMAGE ===== */
+
 .float-left {
     float: left;
     margin: 0 15px 10px 0;
@@ -95,7 +98,7 @@ figcaption {
     margin-top: 5px;
 }
 
-/* ===== TEXT BOX ===== */
+
 .text-box {
     padding: 10px;
 }
@@ -104,7 +107,7 @@ figcaption {
     font-weight: bold;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
     clear: both;
     margin-top: 20px;
