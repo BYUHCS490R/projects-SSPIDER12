@@ -1,0 +1,90 @@
+body {
+    font-family: 'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+    margin: 0;
+    margin-top: 70px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header h1{
+    margin: 0;
+    padding: 5px;
+    background-color: tomato;
+}
+
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: blueviolet;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    border: thin solid black;
+    width: 220px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    padding-bottom: 8px;
+}
+
+.card h2{
+    margin: 5px;
+}
+
+.card a{
+    display: block;
+    width: 70%;
+    padding: 5px;
+    background-color: rgb(39,39,62);
+    color: white;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.cardfig{
+    margin: 0;
+}
+
+.cardfig img{
+    width: 100%;
+}
+
+footer{
+    color: crimson;
+    padding: 10px;
+}
+
+@media print{
+    body{
+        font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+    }
+
+    nav{
+        display:none;
+    }
+
+    .card a{
+        display:none;
+    }
+}
