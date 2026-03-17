@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  background: #444;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Layout with right sidebar */
+.container {
+  display: flex;
+}
+
+main {
+  flex: 3;
+  padding: 20px;
+}
+
+aside {
+  flex: 1;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Table header (looks different) */
+th {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+}
+
+/* Table body */
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Alternate row colors */
+tbody tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
