@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Feedback Form</title>
+    <link rel="stylesheet" href="skib.css">
+</head>
+<body>
+
+<header>
+    <h1> Feedback Form</h1>
+</header>
+
+<main>
+    <form>
+
+        <fieldset>
+            <legend>User Information</legend>
+
+            <div class="row">
+                <label for="username">Name:</label>
+                <input type="text" id="username" name="username">
+            </div>
+
+            <div class="row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="row">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div class="row">
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Experience</legend>
+
+            <div class="row">
+                <label>How did you hear about us?</label>
+                <div class="options">
+                    <label><input type="radio" name="source"> Friend</label>
+                    <label><input type="radio" name="source"> Social Media</label>
+                    <label><input type="radio" name="source"> Search Engine</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <label>Features you use:</label>
+                <div class="options">
+                    <label><input type="checkbox" name="feature"> Articles</label>
+                    <label><input type="checkbox" name="feature"> Videos</label>
+                    <label><input type="checkbox" name="feature"> Forums</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="rating">Rate our website:</label>
+                <select id="rating" name="rating">
+                    <option>Excellent</option>
+                    <option>Good</option>
+                    <option>Average</option>
+                    <option>Poor</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+        </fieldset>
+
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+</main>
+
+<footer>
+    <p>&copy;Jason John 2026</p>
+</footer>
+
+</body>
+</html>
