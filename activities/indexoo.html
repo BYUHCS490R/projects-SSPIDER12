@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason John Web Design</title>
+    <link rel="stylesheet" href="indexooo.css">
+</head>
+<body>
+
+    <h1>Jason John Web Design</h1>
+
+    <fieldset>
+        <legend>Sign Up Form</legend>
+        <form action="/submit-form" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="name@email.com">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+
+            <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time">
+            </div>
+
+            <div class="form-group">
+                <label for="state">State:</label>
+                <select id="state" name="state">
+                    <option value="california">California</option>
+                    <option value="new-york">New York</option>
+                    <option value="texas">Texas</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male" class="inline">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" class="inline">Female</label>
+            </div>
+
+            <div class="form-group">
+                <label>Languages Known:</label>
+                <input type="checkbox" id="english" name="language" value="english">
+                <label for="english" class="inline">English</label>
+                <input type="checkbox" id="telugu" name="language" value="telugu">
+                <label for="telugu" class="inline">Telugu</label>
+                <input type="checkbox" id="hindi" name="language" value="hindi">
+                <label for="hindi" class="inline">Hindi</label>
+            </div>
+
+            <div class="form-group">
+                <label for="proficiency">Proficiency:</label>
+                <input type="range" id="proficiency" name="proficiency" min="0" max="100">
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember" class="inline">Remember me?</label>
+            </div>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </fieldset>
+
+    <section class="answers">
+        <h2>Answers</h2>
+        <ol>
+            <li>The "action" attribute in the form tag tells where the form data will be sent after submission.</li>
+            <li>The "method" attribute tells how the form data is sent, usually using GET or POST.</li>
+            <li>GET sends data in the URL and is less secure, while POST sends data in the request body and is more secure.</li>
+            <li>Forms can be styled using CSS properties like colors, padding, spacing, and layout techniques.</li>
+            <li>Flexbox helps arrange elements in rows and can switch to column layout on smaller screens using media queries.</li>
+        </ol>
+        <p>Date 3/26/2026</p>
+        <p>6) JavaScript is a programming language used to make websites interactive, and it was named “JavaScript” to take advantage of the popularity of Java.</p>
+        <p>7) JavaScript can be run in two ways: in a web browser (client-side) and on a server using Node.js.</p>
+        <p>8) The most popular front-end JavaScript library in the past was jQuery.</p>
+        <p>9) The most popular front-end JavaScript library today is React.</p>
+    </section>
+
+    <footer>
+        &copy; 2026 Jason John
+    </footer>
+
+</body>
+</html>
