@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep Web</title>
+    <link rel="stylesheet" href="forms.css">   
+</head>
+<body>
+    <header>
+        <h1>jason's Web</h1>
+    </header> 
+    <main>
+        <form action="processing.html" method="post" id="myForm">
+            <fieldset>
+             <legend> Sign Up</legend>
+                <div class="fore-row">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="fullname">
+                </div>
+                <div class="fore-row">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="@email.com">
+                </div>
+                <div class="fore-row">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                    <div class="fore-row">
+                        <label for="state">State:</label>
+                        <select name="state" id="state">
+                            <option value="">----</option>
+                            <option value="CA">California</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="UT">Utah</option>
+                        </select>
+                    </div>
+                    <div class="check-row">
+                        <div class="spacer"></div>
+                        <label for="gender">Gender:</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female"     name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">other</label>
+                    </div>
+                    <div class="fore-row">
+                        <div class="spacer"></div>
+                        <input type="submit" value="Sign Up">
+                    </div>
+            </fieldset>
+        </form>
+            <h2> Engagement - Form</h2>
+            <ol>
+                <li>It tells the browser where to send the form after you click submit.</li>
+                <li>It tells the browser how to send the data (which way to use).</li>
+                <li> GET sends data in the URL, so you can see it. It is used for simple data. POST sends data in the background, so you cannot see it. It is used for important data like passwords.</li>
+            </ol> 
+            <h2> Engagement - Form Styling</h2>   
+            <ol>
+                <li>Change colors, fonts, spacing, and borders to make it look clean and nice.</li>
+                <li>Flex arranges items properly and adjusts them for different screen sizes (row on desktop, column on mobile).</li>
+            </ol>
+            <h2> Engagement - Form Processing with JavaScript</h2>
+            <ol>
+                <li>JavaScript is a programming language used to make websites interactive and dynamic.</li>
+                <li>It was named JavaScript for marketing to relate it to Java, even though they are different.</li>
+                <li>JavaScript can run in web browsers or on servers using Node.js</li>
+                <li>The most popular front-end library in the past was jQuery.</li>
+                <li>The most popular front-end library today is React.</li>
+            </ol>
+            <h2> Engagement - Form Processing with AJAX</h2>
+            <ol>
+                <li>AJAX lets a webpage get data without refreshing.</li>
+                <li>To keep code neat and make the website faster.</li>
+            </ol>
+    </main>
+    <footer>
+        <p>&copy; 2026 jason john</p>
+    </footer>
+
+    <script src="form.js"></script>
+
+</body>
+</html>
