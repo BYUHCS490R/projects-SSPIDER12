@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page1.html">Page 1</a></li>
+        <li><a href="page2.html">Page 2</a></li>
+        <li><a href="page3.html">Page 3</a></li>
+        <li><a href="contact.html" class="current">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Send Us a Message</h2>
+    <form id="contactForm">
+      <label>Name:</label><br>
+      <input type="text" name="name" required><br><br>
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br><br>
+      <label>Subject:</label><br>
+      <input type="text" name="subject" required><br><br>
+      <label>Message:</label><br>
+      <textarea name="message" required></textarea><br><br>
+      <button type="submit">Send</button>
+    </form>
+    <p id="successMsg" style="display:none;color:green;">Thank you! Your message has been sent.</p>
+  </main>
+  <footer>
+    <p>&copy; 2026 My Final Project</p>
+  </footer>
+  <script src="js/form.js"></script>
+</body>
+</html>

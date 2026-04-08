@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason John Superhero Website - Fan Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jason John Superhero Website</h1>
+    </header>
+
+    <nav>
+         <a href="Home.html">Home</a>
+    <a href="characters.html">Heroes</a>
+    <a href="power.html">Missions</a>
+    <a href="super.html">Superpowers</a>
+    <a href="thwip.html" class="active">Hero Team</a>
+    <a href="form.html">Fan Form</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Share Your Favorite Superhero Choices</h2>
+            <p> This form is for superhero fans. You can share your favorite hero, favorite mission, and your thoughts about the superheroes.</p>
+        </section>
+
+        <form id="fanForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="hero">Favorite Hero</label>
+            <input type="text" id="hero" name="hero" required>
+
+            <label for="mission">Favorite Mission</label>
+            <select id="mission" name="mission" required>
+                <option value="">Select a mission</option>
+                <option value="City Rescue">City Rescue</option>
+                <option value="Villain Showdown">Villain Showdown</option>
+                <option value="Alien Invasion">Alien Invasion</option>
+                <option value="Secret Operation">Secret Operation</option>
+            </select>
+
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" rows="5"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="successMessage" class="success-message">
+            <p>Your form was successfully processed. Thank you for sharing your favorite superhero information.</p>
+        </div>
+        <h2>References</h2>
+        <ul>
+            <h2>References</h2>
+<ul>
+    <li><a href="https://www.marvel.com/" target="_blank">Marvel Official Site</a></li>
+    <li><a href="https://www.dccomics.com/" target="_blank">DC Comics Official Site</a></li>
+    <li><a href="https://superheroapi.com/index.html" target="_blank">Superhero API (Hero Data Source)</a></li>
+    <li><a href="https://open-source-superheroes.fandom.com/wiki/Open_Source_Superheroes_Wiki" target="_blank">Open Source Superheroes Wiki</a></li>
+    <li><a href="https://www.britannica.com/art/superhero" target="_blank">Superhero History & Info – Britannica</a></li>
+</ul>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jason John</p>
+    </footer>
+
+   <script src="form.js"></script>
+</body>
+</html>
