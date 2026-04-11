@@ -1,42 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
-  <link rel="stylesheet" href="style.css">
+<title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Contact Us</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="page1.html">Page 1</a></li>
-        <li><a href="page2.html">Page 2</a></li>
-        <li><a href="page3.html">Page 3</a></li>
-        <li><a href="contact.html" class="current">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h2>Send Us a Message</h2>
-    <form id="contactForm">
-      <label>Name:</label><br>
-      <input type="text" name="name" required><br><br>
-      <label>Email:</label><br>
-      <input type="email" name="email" required><br><br>
-      <label>Subject:</label><br>
-      <input type="text" name="subject" required><br><br>
-      <label>Message:</label><br>
-      <textarea name="message" required></textarea><br><br>
-      <button type="submit">Send</button>
-    </form>
-    <p id="successMsg" style="display:none;color:green;">Thank you! Your message has been sent.</p>
-  </main>
-  <footer>
-    <p>&copy; 2026 My Final Project</p>
-  </footer>
-  <script src="js/form.js"></script>
+
+<header>Contact / Favorite Hero</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="marvel.html">Marvel</a>
+<a href="dc.html">DC</a>
+<a href="powers.html">Powers</a>
+<a href="movies.html">Movies</a>
+<a href="history.html">History</a>
+<a class="active" href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<form id="form" onsubmit="submitForm(event)">
+<input id="name" placeholder="Your Name" required>
+<input id="hero" placeholder="Favorite Hero" required>
+<textarea placeholder="Why do you like them?"></textarea>
+<select>
+<option>Marvel</option>
+<option>DC</option>
+</select>
+<button type="submit">Submit</button>
+</form>
+
+<p id="msg"></p>
+
+</div>
+
+<footer>Contact Page</footer>
+
 </body>
 </html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fan website for Marvel and DC superheroes where users share their favorite characters and opinions.">
+    <title>Marvel & DC Fan Website - Fan Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Marvel & DC Fan Website</h1>
+    </header>
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="characters.html">Characters</a>
+        <a href="history.html">Universe History</a>
+        <a href="powers.html">Powers & Abilities</a>
+        <a href="crews.html">Hero Teams Table</a>
+        <a href="form.html" class="active">Fan Form</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Share Your Favorite Superheroes</h2>
+            <p>
+                This form is for Marvel and DC fans. Share your favorite superhero,
+                team, and your thoughts about the superhero universe.
+            </p>
+        </section>
+
+        <form id="fanForm">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+
+            <label for="hero">Favorite Superhero</label>
+            <input type="text" id="hero" name="hero" autocomplete="off" required>
+
+            <label for="universe">Favorite Universe</label>
+            <select id="universe" name="universe" autocomplete="off" required>
+                <option value="">Select Universe</option>
+                <option value="Marvel">Marvel</option>
+                <option value="DC">DC</option>
+                <option value="Both">Both</option>
+            </select>
+
+            <label for="team">Favorite Hero Team</label>
+            <select id="team" name="team" autocomplete="off" required>
+                <option value="">Select Team</option>
+                <option value="Avengers">Avengers</option>
+                <option value="Justice League">Justice League</option>
+                <option value="X-Men">X-Men</option>
+                <option value="Teen Titans">Teen Titans</option>
+            </select>
+
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" rows="5" autocomplete="off"></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+<div id="successMessage" class="success-message">
+    <p>Thank you! Your Marvel & DC preferences have been submitted successfully.</p>
+</div>
+        <div id="successMessage" class="success-message">
+            <p>Thank you! Your Marvel & DC preferences have been submitted successfully.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jason John</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
